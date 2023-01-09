@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Store</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="header-elems">
+                <li><a href="#catalogue" class="link">Каталог товаров</a></li>
+                <li><a href="#how-to" class="link">Как заказать часы</a></li>
+                <li><img class="logo" src="images/logo.png"></li>
+                <li><a href="#feedback" class="link">Отзывы покупателей</a></li>
+                <li><a href="#form" class="link">Заказ звонка</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-main">
+                    <div class="hero-text">
+                        <h2>Интернет-магазин<br>smart-часов<br><span class="yellow-text">WATCH STORE</span></h2>
+                        <a class="hero-btn btn" href="#catalogue">Выбрать часы</a>
+                    </div>
+                    <div class="big-pics">
+                        <img class="m26 big-watch" src="images/m26.png" alt="">
+                        <img class="m7 big-watch" src="images/m_7_pro.png" alt="">
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="feature">
+                        <h4 class="f-num">1</h4>
+                        <div>
+                            <h4>Гарантия 14 дней</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                 Laborum accusamus quasi, sunt molestias nisi nam at optio quas voluptatibus harum!</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <h4 class="f-num">2</h4>
+                        <div>
+                            <h4>Доставка по РБ</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Laborum accusamus quasi, sunt molestias nisi nam at optio quas voluptatibus harum!</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <h4 class="f-num">3</h4>
+                        <div>
+                            <h4>Без предоплат</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Laborum accusamus quasi, sunt molestias nisi nam at optio quas voluptatibus harum!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalogue" id="catalogue">
+            <div class="container">
+                <h2 class="cat-title">Каталог товаров</h2>
+                <div class="watches"
+                 id="watches-catalogue-container"
+                 data-aos="fade-down"
+                 data-aos-duration="2000"> </div>
+            </div>
+        </section>
+        <section class="how-to" id="how-to">
+            <div class="container">
+                <h1
+                data-aos="flip-up"
+                >Как заказать smart-часы</h1>
+                <div class="how-to-container"
+                data-aos="flip-left"
+                data-aos-duration="3000">
+                    <div class="how-to-el">
+                        <p class="how-to-num">1</p>
+                        <div>
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, blanditiis.</p>
+                        </div>
+                    </div>
+                    <div class="how-to-el">
+                        <p class="how-to-num">2</p>
+                        <div>
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="how-to-container"
+                data-aos="flip-left"
+                data-aos-duration="3000">
+                    <div class="how-to-el">
+                        <p class="how-to-num">3</p>
+                        <div>
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, blanditiis.</p>
+                        </div>
+                    </div>
+                    <div class="how-to-el">
+                        <p class="how-to-num">4</p>
+                        <div>
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback" id="feedback">
+            <div class="container">
+                <h1 class="feedback-title">Отзывы покупателей</h1>
+                <div class="feedback-container">
+                    <img id="arrow-left" class="arrow" src="images/arrow-left.png" alt="">
+                    <div class="review" id="review-1">
+                        <h4 class="review-title">"Review title"</h4>
+                        <img class="customer-img" src="images/customer.png" alt="">
+                        <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Magnam fugit incidunt amet, soluta quidem praesentium tempore animi deserunt?
+                            Officia, eaque!</p>
+                        <p class="customer">— Customer's name</p>
+                    </div>
+                    <div class="review" id="review-2">
+                        <h4 class="review-title">"Review title"</h4>
+                        <img class="customer-img" src="images/customer.png" alt="">
+                        <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Magnam fugit incidunt amet, soluta quidem praesentium tempore animi deserunt?
+                            Officia, eaque!</p>
+                        <p class="customer">— Customer's name</p>
+                    </div>
+                    <img id="arrow-right" class="arrow" src="images/arrow-right.png" alt="">  
+                </div>
+                <div class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                </div>  
+                <h1 data-aos="flip-up">Оформление заказа</h1>
+            </div>
+        </section>
+        <section class="form" id="form">
+            <img class="form-img" src="images/form-img.png" alt="">
+            <div>
+                <div class="form-container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Nam ipsa veritatis commodi rerum.</p>
+                    <form action="">
+                        <input type="text" name="" class="input-text" id="input-name" placeholder="Введите свое имя">
+                        <input type="text" name="" class="input-text" id="input-phone" placeholder="Введите свой номер телефона">
+                        <input type="submit" class="btn" id="input-btn" value="Отправить">
+                    </form>
+                </div>
+                <div id="modal" class="hidden">
+                    <h2>Спасибо за заказ!</h2>
+                    <p>Мы свяжемся с вами в ближайшее время</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-copy">2022 &copy; Все права защищены</p>
+        <p><a class="link" href="https://www.instagram.com/zetto_kanna/" target="_blank">Instagram</a></p>
+        <p id="tele-link"><a class="link" href="https://t.me/zetto_kanna" target="_blank">Telegram</a></p>
+    </footer>
+    <script src="index.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        const sections = document.querySelectorAll('section')
+        for (let i = 1; i < sections.length; i++) {
+            sections[i].setAttribute('data-aos', 'fade-in')
+            sections[i].setAttribute('data-aos-duration', '2000')
+        }
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
